@@ -7,7 +7,7 @@ branding:
 inputs:
   - name: abc
 
-config:
+configs:
   repo-metadata:
     parameters:
       topics:
