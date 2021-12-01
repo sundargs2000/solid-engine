@@ -1,0 +1,7 @@
+name: Run Pre Publish and Release stacks
+on: [push]
+jobs:
+  Explore-GitHub-Stacks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: sundargs2000/stacks-pre-publish@master
